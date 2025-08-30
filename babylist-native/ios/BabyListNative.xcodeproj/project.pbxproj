@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		081514742A7C453C003D0531 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 081514732A7C453C003D0531 /* main.m */; };
+		13B07F9E1A680F5B00A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07F9D1A680F5B00A75B9A /* AppDelegate.mm */; };
+		13B07FA31A680F5B00A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FA21A680F5B00A75B9A /* Images.xcassets */; };
+		13B07FA51A680F5B00A75B9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FA41A680F5B00A75B9A /* LaunchScreen.storyboard */; };
+		58B511D91E10B38400355208 /* libReact-RCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B511D81E10B38400355208 /* libReact-RCTActionSheet.a */; };
+		58B511DD1E10B38400355208 /* libReact-RCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B511DC1E10B38400355208 /* libReact-RCTAnimation.a */; };
+		58B511E11E10B38400355208 /* libReact-RCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B511E01E10B38400355208 /* libReact-RCTBlob.a */; };
+		58B511E51E10B38400355208 /* libReact-RCTImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B511E41E10B38400355208 /* libReact-RCTImage.a */; };
+		58B511ED1E10B38400355208 /* libReact-RCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B511EC1E10B38400355208 /* libReact-RCTLinking.a */; };
+		58B511F11E10B38400355208 /* libReact-RCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B511F01E10B38400355208 /* libReact-RCTNetwork.a */; };
+		58B511F51E10B38400355208 /* libReact-RCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B511F41E10B38400355208 /* libReact-RCTSettings.a */; };
+		58B511F91E10B38400355208 /* libReact-RCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B511F81E10B38400355208 /* libReact-RCTText.a */; };
+		58B511FD1E10B38400355208 /* libReact-RCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B511FC1E10B38400355208 /* libReact-RCTVibration.a */; };
+		58B512011E10B38400355208 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B512001E10B38400355208 /* libReact.a */; };
+		58B512051E10B38400355208 /* libReact-Core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B512041E10B38400355208 /* libReact-Core.a */; };
+		58B512091E10B38400355208 /* libReact-DevSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B512081E10B38400355208 /* libReact-DevSettings.a */; };
+		58B5120D1E10B38400355208 /* libReact-Executor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B5120C1E10B38400355208 /* libReact-Executor.a */; };
+		58B512111E10B38400355208 /* libReact-jsi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B512101E10B38400355208 /* libReact-jsi.a */; };
+		58B512151E10B38400355208 /* libReact-jsiexecutor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B512141E10B38400355208 /* libReact-jsiexecutor.a */; };
+		58B512191E10B38400355208 /* libReact-jsinspector.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B512181E10B38400355208 /* libReact-jsinspector.a */; };
+		58B5121D1E10B38400355208 /* libReact-JSC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B5121C1E10B38400355208 /* libReact-JSC.a */; };
+		58B512211E10B38400355208 /* libReact-cxxreact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B512201E10B38400355208 /* libReact-cxxreact.a */; };
+		58B512251E10B38400355208 /* libReact-NativeModulesApple.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B512241E10B38400355208 /* libReact-NativeModulesApple.a */; };
+		58B512291E10B38400355208 /* libReact-turbomodule-core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B512281E10B38400355208 /* libReact-turbomodule-core.a */; };
+		58B5122D1E10B38400355208 /* libReactCommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B5122C1E10B38400355208 /* libReactCommon.a */; };
+		58B512311E10B38400355208 /* libglog.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B512301E10B38400355208 /* libglog.a */; };
+		58B512351E10B38400355208 /* libreact-native-codegen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B512341E10B38400355208 /* libreact-native-codegen.a */; };
+		58B512391E10B38400355208 /* libreact-native-config.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B512381E10B38400355208 /* libreact-native-config.a */; };
+		58B5123D1E10B38400355208 /* libreacthermes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B5123C1E10B38400355208 /* libreacthermes.a */; };
+		58B512411E10B38400355208 /* libyoga.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B512401E10B38400355208 /* libyoga.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13B07F9D1A680F5B00A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FA11A680F5B00A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13B07FA21A680F5B00A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		13B07FA41A680F5B00A75B9A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D5154312A7C3D0000C16377 /* BabyListNative.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabyListNative.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B511D81E10B38400355208 /* libReact-RCTActionSheet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReact-RCTActionSheet.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B511DC1E10B38400355208 /* libReact-RCTAnimation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReact-RCTAnimation.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B511E01E10B38400355208 /* libReact-RCTBlob.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReact-RCTBlob.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B511E41E10B38400355208 /* libReact-RCTImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReact-RCTImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B511EC1E10B38400355208 /* libReact-RCTLinking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReact-RCTLinking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B511F01E10B38400355208 /* libReact-RCTNetwork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReact-RCTNetwork.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B511F41E10B38400355208 /* libReact-RCTSettings.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReact-RCTSettings.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B511F81E10B38400355208 /* libReact-RCTText.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReact-RCTText.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B511FC1E10B38400355208 /* libReact-RCTVibration.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReact-RCTVibration.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B512001E10B38400355208 /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B512041E10B38400355208 /* libReact-Core.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReact-Core.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B512081E10B38400355208 /* libReact-DevSettings.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReact-DevSettings.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B5120C1E10B38400355208 /* libReact-Executor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReact-Executor.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B512101E10B38400355208 /* libReact-jsi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReact-jsi.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B512141E10B38400355208 /* libReact-jsiexecutor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReact-jsiexecutor.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B512181E10B38400355208 /* libReact-jsinspector.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReact-jsinspector.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B5121C1E10B38400355208 /* libReact-JSC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReact-JSC.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B512201E10B38400355208 /* libReact-cxxreact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReact-cxxreact.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B512241E10B38400355208 /* libReact-NativeModulesApple.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReact-NativeModulesApple.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B512281E10B38400355208 /* libReact-turbomodule-core.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReact-turbomodule-core.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B5122C1E10B38400355208 /* libReactCommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReactCommon.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B512301E10B38400355208 /* libglog.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libglog.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B512341E10B38400355208 /* libreact-native-codegen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libreact-native-codegen.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B512381E10B38400355208 /* libreact-native-config.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libreact-native-config.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B5123C1E10B38400355208 /* libreacthermes.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libreacthermes.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B512401E10B38400355208 /* libyoga.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libyoga.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8392155127B6651E00E50B20 /* RCTRequired.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objcpp; path = RCTRequired.mm; sourceTree = "<group>"; };
+		83CB1A1C1D61D278009772F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13B07F8A1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B512411E10B38400355208 /* libyoga.a in Frameworks */,
+				58B5123D1E10B38400355208 /* libreacthermes.a in Frameworks */,
+				58B512391E10B38400355208 /* libreact-native-config.a in Frameworks */,
+				58B512351E10B38400355208 /* libreact-native-codegen.a in Frameworks */,
+				58B512311E10B38400355208 /* libglog.a in Frameworks */,
+				58B5122D1E10B38400355208 /* libReactCommon.a in Frameworks */,
+				58B512291E10B38400355208 /* libReact-turbomodule-core.a in Frameworks */,
+				58B512251E10B38400355208 /* libReact-NativeModulesApple.a in Frameworks */,
+				58B512211E10B38400355208 /* libReact-cxxreact.a in Frameworks */,
+				58B5121D1E10B38400355208 /* libReact-JSC.a in Frameworks */,
+				58B512191E10B38400355208 /* libReact-jsinspector.a in Frameworks */,
+				58B512151E10B38400355208 /* libReact-jsiexecutor.a in Frameworks */,
+				58B512111E10B38400355208 /* libReact-jsi.a in Frameworks */,
+				58B5120D1E10B38400355208 /* libReact-Executor.a in Frameworks */,
+				58B512091E10B38400355208 /* libReact-DevSettings.a in Frameworks */,
+				58B512051E10B38400355208 /* libReact-Core.a in Frameworks */,
+				58B512011E10B38400355208 /* libReact.a in Frameworks */,
+				58B511FD1E10B38400355208 /* libReact-RCTVibration.a in Frameworks */,
+				58B511F91E10B38400355208 /* libReact-RCTText.a in Frameworks */,
+				58B511F51E10B38400355208 /* libReact-RCTSettings.a in Frameworks */,
+				58B511F11E10B38400355208 /* libReact-RCTNetwork.a in Frameworks */,
+				58B511ED1E10B38400355208 /* libReact-RCTLinking.a in Frameworks */,
+				58B511E51E10B38400355208 /* libReact-RCTImage.a in Frameworks */,
+				58B511E11E10B38400355208 /* libReact-RCTBlob.a in Frameworks */,
+				58B511DD1E10B38400355208 /* libReact-RCTAnimation.a in Frameworks */,
+				58B511D91E10B38400355208 /* libReact-RCTActionSheet.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		081514722A7C453C003D0531 /* BabyListNative-Bridging-Header.h */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "BabyListNative-Bridging-Header.h";
+			sourceTree = "<group>";
+		};
+		13B07F8C1A680F5B00A75B9A /* BabyListNative */ = {
+			isa = PBXGroup;
+			children = (
+				8392155127B6651E00E50B20 /* RCTRequired.mm */,
+				081514722A7C453C003D0531 /* BabyListNative-Bridging-Header.h */,
+				13B07F9C1A680F5B00A75B9A /* AppDelegate.h */,
+				13B07F9D1A680F5B00A75B9A /* AppDelegate.mm */,
+				081514732A7C453C003D0531 /* main.m */,
+				13B07FA21A680F5B00A75B9A /* Images.xcassets */,
+				83CB1A1C1D61D278009772F2 /* Info.plist */,
+				13B07FA41A680F5B00A75B9A /* LaunchScreen.storyboard */,
+			);
+			sourceTree = "<group>";
+		};
+		4D5154332A7C3D0000C16377 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D5154312A7C3D0000C16377 /* BabyListNative.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B07F861A680F5B00A75B9A /* BabyListNative */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D51542B2A7C3D0000C16377 /* Build configuration list for PBXNativeTarget "BabyListNative" */;
+			buildPhases = (
+				00DD1BFF1BD5951E006B06BC /* [CP] Check Pods Manifest.lock */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8A1A680F5B00A75B9A /* Frameworks */,
+				13B07F8C1A680F5B00A75B9A /* Resources */,
+				00DD1C001BD5951E006B06BC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BabyListNative;
+			productName = BabyListNative;
+			productReference = 4D5154312A7C3D0000C16377 /* BabyListNative.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13B07F831A680F5B00A75B9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					13B07F861A680F5B00A75B9A = {
+						CreatedOnToolsVersion = 6.2;
+						LastSwiftMigration = 1100;
+					};
+				};
+			};
+			buildConfigurationList = 13B07F851A680F5B00A75B9A /* Build configuration list for PBXProject "BabyListNative" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13B07F8C1A680F5B00A75B9A /* BabyListNative */;
+			productRefGroup = 4D5154332A7C3D0000C16377 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* BabyListNative */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13B07F8C1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FA51A680F5B00A75B9A /* LaunchScreen.storyboard in Resources */,
+				13B07FA31A680F5B00A75B9A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				081514742A7C453C003D0531 /* main.m in Sources */,
+				13B07F9E1A680F5B00A75B9A /* AppDelegate.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4D51542A2A7C3D0000C16377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackgroundColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"FB_SONARKIT_ENABLED=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4D51542C2A7C3D0000C16377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackgroundColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D51542D2A7C3D0000C16377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = BabyListNative/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.BabyListNative";
+				PRODUCT_NAME = BabyListNative;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D51542E2A7C3D0000C16377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = BabyListNative/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.BabyListNative";
+				PRODUCT_NAME = BabyListNative;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B07F851A680F5B00A75B9A /* Build configuration list for PBXProject "BabyListNative" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D51542A2A7C3D0000C16377 /* Debug */,
+				4D51542C2A7C3D0000C16377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D51542B2A7C3D0000C16377 /* Build configuration list for PBXNativeTarget "BabyListNative" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D51542D2A7C3D0000C16377 /* Debug */,
+				4D51542E2A7C3D0000C16377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13B07F831A680F5B00A75B9A /* Project object */;
+}

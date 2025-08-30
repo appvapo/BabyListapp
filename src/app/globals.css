@@ -1,0 +1,168 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 240 10% 95%;
+    --foreground: 240 5% 10%;
+    
+    --card: 0 0% 100%;
+    --card-foreground: 240 5% 10%;
+    
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 5% 10%;
+    
+    --primary: 255 70% 85%; /* Lavender */
+    --primary-foreground: 255 10% 20%;
+    
+    --secondary: 349 70% 65%; /* Darker Pale Pink */
+    --secondary-foreground: 349 20% 20%;
+    
+    --muted: 240 10% 90%;
+    --muted-foreground: 240 5% 35%;
+    
+    --accent: 349 80% 99%; /* Even Lighter Pale Pink */
+    --accent-foreground: 349 20% 20%;
+    
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    
+    --border: 240 10% 88%;
+    --input: 240 10% 92%;
+    --ring: 255 70% 70%;
+    
+    --chart-1: 341 90% 80%;
+    --chart-2: 210 90% 80%;
+    --chart-3: 160 80% 75%;
+    --chart-4: 45 100% 75%;
+    --chart-5: 270 90% 85%;
+    
+    --radius: 0.8rem;
+  }
+  .dark {
+    --background: 240 8% 9%;
+    --foreground: 0 0% 98%;
+
+    --card: 240 8% 13%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 240 8% 10%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 255 50% 50%; /* Darker Lavender */
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 349 60% 40%; /* Darker Pink */
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 240 8% 17%;
+    --muted-foreground: 0 0% 70%;
+
+    --accent: 349 60% 22%; /* Even Darker Pink */
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 62.8% 40.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 8% 20%;
+    --input: 240 8% 22%;
+    --ring: 255 50% 65%;
+
+    --chart-1: 341 80% 60%;
+    --chart-2: 210 80% 60%;
+    --chart-3: 160 70% 45%;
+    --chart-4: 45 90% 55%;
+    --chart-5: 270 80% 65%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .mask-gradient {
+    mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+  }
+  .animate-trophy {
+    animation: trophy-celebration 2.5s ease-in-out forwards;
+  }
+
+  .embla-fade .embla__slide {
+    opacity: 0.2;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .embla-fade .embla__slide.is-selected {
+    opacity: 1;
+  }
+
+  .rdp-day_selected.has-appointment:not([disabled])::after,
+  .rdp-day_selected.has-important-appointment:not([disabled]):::after {
+      background-color: hsl(var(--primary-foreground));
+  }
+
+  .has-appointment .rdp-day-content::after {
+    content: '';
+    position: absolute;
+    bottom: 4px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: hsl(var(--primary));
+  }
+  
+  .has-important-appointment .rdp-day-content::after {
+    background-color: hsl(var(--destructive));
+  }
+
+  .rdp-day_selected.has-appointment .rdp-day-content::after,
+  .rdp-day_selected.has-important-appointment .rdp-day-content::after {
+      background-color: hsl(var(--primary-foreground));
+  }
+  
+  .no-spinners::-webkit-outer-spin-button,
+  .no-spinners::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  .no-spinners {
+    -moz-appearance: textfield;
+  }
+}
+
+@keyframes trophy-celebration {
+  0% {
+    transform: scale(0) rotate(-30deg);
+    opacity: 0;
+  }
+  25% {
+    transform: scale(1.2) rotate(15deg);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(8) rotate(0deg);
+  }
+  80% {
+    transform: scale(0.9) rotate(0deg);
+  }
+  100% {
+    transform: scale(1) rotate(0deg);
+    opacity: 1;
+  }
+}
