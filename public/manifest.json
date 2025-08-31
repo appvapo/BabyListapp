@@ -7,15 +7,16 @@
   "background_color": "#E6E6FA",
   "theme_color": "#E6E6FA",
   "orientation": "portrait-primary",
-  "icons": [
-    {
-      "src": "/icon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml"
-    }
-  ],
   "id": "/?source=pwa",
   "lang": "fr-FR",
   "dir": "ltr",
-  "categories": ["lifestyle", "parenting", "health", "medical"]
+  "categories": ["lifestyle", "parenting", "health"],
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
 }
