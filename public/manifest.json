@@ -1,0 +1,35 @@
+{
+    "name": "BabyList",
+    "short_name": "BabyList",
+    "description": "Suivi de bébé simple et intuitif.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#f5f5f5",
+    "theme_color": "#E6E6FA",
+    "orientation": "portrait-primary",
+    "lang": "fr-FR",
+    "dir": "ltr",
+    "id": "/?source=pwa",
+    "scope": "/",
+    "categories": ["lifestyle", "parenting", "health", "productivity"],
+    "launch_handler": {
+        "client_mode": "navigate-existing"
+    },
+    "icons": [
+        {
+            "src": "favicon.svg",
+            "sizes": "any",
+            "type": "image/svg+xml"
+        },
+        {
+            "src": "/icons/icon-192x192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/icons/icon-512x512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}
